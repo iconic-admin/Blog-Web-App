@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const currentPage = window.location.pathname.split('/').pop();
 
-    // Function to get blog posts from localStorage
+    // Function to get blog posts from localStorage 
     function getBlogPosts() {
         return JSON.parse(localStorage.getItem('blogPosts')) || [];
     }
